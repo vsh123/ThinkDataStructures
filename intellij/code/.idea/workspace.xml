@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7af5d49f-a5c2-40e3-91a7-b27378d76444" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/allendowney/thinkdast/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allendowney/thinkdast/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allendowney/thinkdast/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allendowney/thinkdast/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allendowney/thinkdast/MyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allendowney/thinkdast/MyLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,21 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../solutions" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="JUnit.MyArrayListTest">
+  <component name="RunManager" selected="JUnit.MyLinkedListTest">
+    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.allendowney.thinkdast.MyLinkedList" />
+      <module name="code.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allendowney.thinkdast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -86,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayListTest.testAddIntT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code.main" />
       <extension name="coverage">
         <pattern>
@@ -95,15 +110,31 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.allendowney.thinkdast" />
-      <option name="MAIN_CLASS_NAME" value="com.allendowney.thinkdast.MyArrayListTest" />
-      <option name="METHOD_NAME" value="testAddIntT" />
+      <option name="MAIN_CLASS_NAME" value="com.allendowney.thinkdast.MyLinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLinkedListTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allendowney.thinkdast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.allendowney.thinkdast" />
+      <option name="MAIN_CLASS_NAME" value="com.allendowney.thinkdast.MyLinkedListTest" />
+      <option name="METHOD_NAME" value="addTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayListTest.testAddT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyLinkedListTest.indexOfTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code.main" />
       <extension name="coverage">
         <pattern>
@@ -112,42 +143,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.allendowney.thinkdast" />
-      <option name="MAIN_CLASS_NAME" value="com.allendowney.thinkdast.MyArrayListTest" />
-      <option name="METHOD_NAME" value="testAddT" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyArrayListTest.testRemoveObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.allendowney.thinkdast.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.allendowney.thinkdast" />
-      <option name="MAIN_CLASS_NAME" value="com.allendowney.thinkdast.MyArrayListTest" />
-      <option name="METHOD_NAME" value="testRemoveObject" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyArrayListTest.testSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.allendowney.thinkdast.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.allendowney.thinkdast" />
-      <option name="MAIN_CLASS_NAME" value="com.allendowney.thinkdast.MyArrayListTest" />
-      <option name="METHOD_NAME" value="testSet" />
+      <option name="MAIN_CLASS_NAME" value="com.allendowney.thinkdast.MyLinkedListTest" />
+      <option name="METHOD_NAME" value="indexOfTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -171,19 +168,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MyArrayListTest.testAddT" />
-      <item itemvalue="JUnit.MyArrayListTest.testAddIntT" />
       <item itemvalue="JUnit.MyArrayListTest" />
-      <item itemvalue="JUnit.MyArrayListTest.testSet" />
-      <item itemvalue="JUnit.MyArrayListTest.testRemoveObject" />
+      <item itemvalue="Application.MyLinkedList" />
+      <item itemvalue="JUnit.MyLinkedListTest.addTest" />
+      <item itemvalue="JUnit.MyLinkedListTest.indexOfTest" />
+      <item itemvalue="JUnit.MyLinkedListTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyLinkedListTest" />
+        <item itemvalue="JUnit.MyLinkedListTest.addTest" />
+        <item itemvalue="JUnit.MyLinkedListTest.indexOfTest" />
+        <item itemvalue="Application.MyLinkedList" />
         <item itemvalue="JUnit.MyArrayListTest" />
-        <item itemvalue="JUnit.MyArrayListTest.testRemoveObject" />
-        <item itemvalue="JUnit.MyArrayListTest.testSet" />
-        <item itemvalue="JUnit.MyArrayListTest.testAddIntT" />
-        <item itemvalue="JUnit.MyArrayListTest.testAddT" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +206,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524898475722</updated>
-      <workItem from="1584960121298" duration="1956000" />
+      <workItem from="1584960121298" duration="2456000" />
+      <workItem from="1584978302470" duration="2721000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 실습1">
       <created>1584958236907</created>
@@ -241,53 +239,71 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="663" y="205" key="#ListClientExample/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1584958380184" />
+    <state x="773" y="263" key="#com.intellij.ide.util.MemberChooser" timestamp="1584982468199">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="773" y="263" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1584982468199" />
+    <state x="723" y="250" key="#xdebugger.evaluate" timestamp="1584983040474">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="723" y="250" key="#xdebugger.evaluate/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1584983040474" />
     <state x="541" y="142" key="CommitChangelistDialog2" timestamp="1584962003035">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="541" y="142" key="CommitChangelistDialog2/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1584962003035" />
-    <state width="1878" height="209" key="GridCell.Tab.0.bottom" timestamp="1584962080072">
+    <state width="1878" height="283" key="GridCell.Tab.0.bottom" timestamp="1584983877390">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="209" key="GridCell.Tab.0.bottom/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1584962080072" />
+    <state width="1878" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1584983877390" />
     <state width="1878" height="209" key="GridCell.Tab.0.bottom/0.0.1920.1080/0.1103.1792.1097@0.0.1920.1080" timestamp="1584961151224" />
-    <state width="1878" height="209" key="GridCell.Tab.0.center" timestamp="1584962080070">
+    <state width="1878" height="283" key="GridCell.Tab.0.center" timestamp="1584983877388">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="209" key="GridCell.Tab.0.center/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1584962080070" />
+    <state width="1878" height="283" key="GridCell.Tab.0.center/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1584983877388" />
     <state width="1878" height="209" key="GridCell.Tab.0.center/0.0.1920.1080/0.1103.1792.1097@0.0.1920.1080" timestamp="1584961151223" />
-    <state width="1878" height="209" key="GridCell.Tab.0.left" timestamp="1584962080069">
+    <state width="1878" height="283" key="GridCell.Tab.0.left" timestamp="1584983877387">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="209" key="GridCell.Tab.0.left/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1584962080069" />
+    <state width="1878" height="283" key="GridCell.Tab.0.left/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1584983877387" />
     <state width="1878" height="209" key="GridCell.Tab.0.left/0.0.1920.1080/0.1103.1792.1097@0.0.1920.1080" timestamp="1584961151222" />
-    <state width="1878" height="209" key="GridCell.Tab.0.right" timestamp="1584962080071">
+    <state width="1878" height="283" key="GridCell.Tab.0.right" timestamp="1584983877390">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="209" key="GridCell.Tab.0.right/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1584962080071" />
+    <state width="1878" height="283" key="GridCell.Tab.0.right/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1584983877390" />
     <state width="1878" height="209" key="GridCell.Tab.0.right/0.0.1920.1080/0.1103.1792.1097@0.0.1920.1080" timestamp="1584961151224" />
-    <state width="1878" height="375" key="GridCell.Tab.1.bottom" timestamp="1584962005416">
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom" timestamp="1584983198762">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1584962005416" />
-    <state width="1878" height="375" key="GridCell.Tab.1.center" timestamp="1584962005415">
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1584983198762" />
+    <state width="1878" height="375" key="GridCell.Tab.1.center" timestamp="1584983198761">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1584962005415" />
-    <state width="1878" height="375" key="GridCell.Tab.1.left" timestamp="1584962005414">
+    <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1584983198761" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left" timestamp="1584983198761">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1584962005414" />
-    <state width="1878" height="375" key="GridCell.Tab.1.right" timestamp="1584962005416">
+    <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1584983198761" />
+    <state width="1878" height="375" key="GridCell.Tab.1.right" timestamp="1584983198762">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1584962005416" />
+    <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1584983198762" />
     <state x="469" y="179" key="SettingsEditor" timestamp="1584958367855">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="469" y="179" key="SettingsEditor/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1584958367855" />
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1584960319924">
+    <state x="653" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1584979928644">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="653" y="372" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1584979928644" />
+    <state x="625" y="255" key="run.anything.popup" timestamp="1584980433618">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="625" y="255" key="run.anything.popup/0.23.1920.1057/0.1103.1792.1030@0.23.1920.1057" timestamp="1584980433618" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1584980510774">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1584980510774" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080/0.1103.1792.1030@0.0.1920.1080" timestamp="1584979975235" />
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080/0.1103.1792.1097@0.0.1920.1080" timestamp="1584960319924" />
   </component>
   <component name="XDebuggerManager">
@@ -302,6 +318,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/allendowney/thinkdast/MyArrayList.java</url>
           <line>112</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/allendowney/thinkdast/MyLinkedList.java</url>
+          <line>182</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
